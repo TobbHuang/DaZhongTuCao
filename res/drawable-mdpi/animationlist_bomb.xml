@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true" >
+    
+    <item android:drawable="@drawable/bomb_p01" android:duration="70"></item>
+    <item android:drawable="@drawable/bomb_p02" android:duration="70"></item>
+    <item android:drawable="@drawable/bomb_p03" android:duration="70"></item>
+    <item android:drawable="@drawable/bomb_p04" android:duration="70"></item>
+    <item android:drawable="@drawable/bomb_p05" android:duration="70"></item>
+    <item android:drawable="@drawable/bomb_p06" android:duration="70"></item>
+    <item android:drawable="@drawable/bomb_p07" android:duration="70"></item>
+    <item android:drawable="@drawable/bomb_p08" android:duration="70"></item>
+    <item android:drawable="@drawable/bomb_p09" android:duration="70"></item>
+    <item android:drawable="@drawable/bomb_p10" android:duration="70"></item>
+    <item android:drawable="@drawable/bomb_p11" android:duration="70"></item>
+    <item android:drawable="@drawable/bomb_p12" android:duration="70"></item>
+    <item android:drawable="@drawable/bomb_p13" android:duration="70"></item>
+    <item android:drawable="@drawable/bomb_p14" android:duration="70"></item>
+    <item android:drawable="@drawable/bomb_p15" android:duration="70"></item>
+    <item android:drawable="@drawable/bomb_p16" android:duration="70"></item>
+    <item android:drawable="@drawable/bomb_p17" android:duration="70"></item>
+    <item android:drawable="@drawable/bomb_p18" android:duration="70"></item>
+    <item android:drawable="@drawable/bomb_p19" android:duration="70"></item>
+    <!-- <item android:drawable="@drawable/bomb_p20" android:duration="50"></item>
+    <item android:drawable="@drawable/bomb_p21" android:duration="50"></item>
+    <item android:drawable="@drawable/bomb_p22" android:duration="50"></item>
+    <item android:drawable="@drawable/bomb_p23" android:duration="50"></item>
+    <item android:drawable="@drawable/bomb_p24" android:duration="50"></item>
+    <item android:drawable="@drawable/bomb_p25" android:duration="50"></item>
+    <item android:drawable="@drawable/bomb_p26" android:duration="50"></item>
+    <item android:drawable="@drawable/bomb_p27" android:duration="50"></item>
+    <item android:drawable="@drawable/bomb_p28" android:duration="50"></item>
+    <item android:drawable="@drawable/bomb_p29" android:duration="50"></item>
+    <item android:drawable="@drawable/bomb_p30" android:duration="50"></item>
+    <item android:drawable="@drawable/bomb_p31" android:duration="50"></item>
+    <item android:drawable="@drawable/bomb_p32" android:duration="50"></item>
+    <item android:drawable="@drawable/bomb_p33" android:duration="50"></item>
+    <item android:drawable="@drawable/bomb_p34" android:duration="50"></item>
+    <item android:drawable="@drawable/bomb_p35" android:duration="50"></item>
+    <item android:drawable="@drawable/bomb_p36" android:duration="50"></item>
+    <item android:drawable="@drawable/bomb_p37" android:duration="50"></item>
+    <item android:drawable="@drawable/bomb_p38" android:duration="50"></item>
+    <item android:drawable="@drawable/bomb_p39" android:duration="50"></item>
+    <item android:drawable="@drawable/bomb_p40" android:duration="50"></item> -->
+
+</animation-list>

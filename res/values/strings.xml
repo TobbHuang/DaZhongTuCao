@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">大众吐槽</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_shop_mainpage">ShopMainpageActivity</string>
+    <string name="title_activity_type">TypeActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_tucao">TucaoActivity</string>
+    <string name="title_activity_shop_list">ShopListActivity</string>
+    <string name="title_activity_reply_info">ReplyInfoActivity</string>
+    <string name="title_activity_achievement">AchievementActivity</string>
+    <string name="title_activity_reply">ReplyActivity</string>
+    <string name="title_activity_user_mainpage">UserMainpageActivity</string>
+
+</resources>

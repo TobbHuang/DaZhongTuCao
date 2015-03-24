@@ -1,0 +1,359 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/theme" >
+
+        <LinearLayout
+            android:id="@+id/lly_type_turnback"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/drawable_selector_theme_lighttheme"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="3dp"
+                android:src="@drawable/ic_turnback" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="3dp"
+                android:src="@drawable/icon" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="选择"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/rl_type_search"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/lightTheme" >
+        
+        <Button 
+            android:id="@+id/btn_type_search"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:text="搜索"
+            android:textSize="14sp"
+            android:layout_alignParentRight="true"
+            android:background="@color/lightTheme"
+            android:textColor="@drawable/color_selector_orange_white"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+            android:clickable="false" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:layout_toLeftOf="@id/btn_type_search"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/searchbar" >
+
+            <ImageView
+                android:id="@+id/iv_type_icon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/ic_search_little" />
+
+            <EditText
+                android:id="@+id/et_type_edit"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@id/btn_type_search"
+                android:layout_toRightOf="@id/iv_type_icon"
+                android:background="@color/white"
+                android:hint="请输入关键字…"
+                android:textSize="12sp"
+                android:clickable="false" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/rl_type_restaurant"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/drawable_selector_white_lightgrey"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/imageButton1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_centerHorizontal="true"
+                    android:clickable="false"
+                    android:src="@drawable/ic_restaurant" />
+
+                <TextView
+                    android:id="@+id/typetext1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imageButton1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:clickable="false"
+                    android:text="餐饮" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_type_hotel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/drawable_selector_white_lightgrey"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/imageButton2"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_hotel" />
+
+                <TextView
+                    android:id="@+id/typetext2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imageButton2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="酒店" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_type_shopping"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/drawable_selector_white_lightgrey"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/imageButton3"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_shopping" />
+
+                <TextView
+                    android:id="@+id/typetext3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imageButton3"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="购物" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/rl_type_attraction"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/drawable_selector_white_lightgrey"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/imageButton4"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_attraction" />
+
+                <TextView
+                    android:id="@+id/typetext4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imageButton4"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="景点" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_type_ktv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/drawable_selector_white_lightgrey"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/imageButton5"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_ktv" />
+
+                <TextView
+                    android:id="@+id/typetext5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imageButton5"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="KTV" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_type_film"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/drawable_selector_white_lightgrey"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/imageButton6"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_film" />
+
+                <TextView
+                    android:id="@+id/typetext6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imageButton6"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="影视" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/rl_type_sports"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/drawable_selector_white_lightgrey"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/imageButton7"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_sports" />
+
+                <TextView
+                    android:id="@+id/typetext7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imageButton7"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="运动" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_type_trip"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/drawable_selector_white_lightgrey"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/imageButton8"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_trip" />
+
+                <TextView
+                    android:id="@+id/typetext8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imageButton8"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="旅行" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/drawable_selector_white_lightgrey"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/imageButton_search"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_clothes" />
+
+                <TextView
+                    android:id="@+id/typetext9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imageButton_search"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="服饰" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
